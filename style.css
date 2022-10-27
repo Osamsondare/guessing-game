@@ -1,0 +1,62 @@
+.usernameCon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .usernameCon label {
+    font-size: 26px;
+  }
+  
+  .usernameCon #newUsername {
+    width: 230px;
+    margin-top: 10px;
+  }
+  
+  .usernameCon #continueBtn {
+    font-size: 17px;
+    width: 130px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .userInfo {
+    display: none;
+    flex-direction: column;
+    height: fit-content;
+  }
+  
+  .userInfo #username {
+    font-size: 26px;
+  }
+  
+  .userInfo #totalPoints {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .gameCon {
+    display: none;
+    flex-direction: column;
+  }
+  
+  .gameCon #title {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  
+  .gameCon #status {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .gameCon #userGuess {
+    width: 230px;
+    margin-top: 8px;
+  }
+  
+  .gameCon #guessBtn {
+    font-size: 17px;
+    width: 130px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
